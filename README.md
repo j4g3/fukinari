@@ -1,7 +1,8 @@
 # fukinari
 A Open-Source discord bot written in python
-
-
+#
+CLI Branch
+#
 The project have 2 branches, master and gui
 <li>master = CLI version</li>
 <li>gui = GUI version</li>
