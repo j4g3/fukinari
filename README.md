@@ -6,6 +6,7 @@ The project have 2 branches, master and gui
 <li>master = CLI version</li>
 <li<gui = GUI version</li>
 
+#
 
 >Contacts:
 <li>Discord: Ferroxy#2071</li>
