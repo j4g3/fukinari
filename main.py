@@ -13,14 +13,11 @@ from api import *
 a = Gui()
 a.main()
 token = a.token
-#a.validate(token)
+a.bye()
 token = token
 print(token)
 
 
-
-
-#token = 'NzA5NzkyMDQ4Mjg2NDAwNTEy.Xr2hgQ.0o3GyDXOjITSObP0RZ9TEyD3IdQ'
 computer = wmi.WMI()
 computer_info = computer.Win32_ComputerSystem()[0]
 os_info = computer.Win32_OperatingSystem()[0]
@@ -38,7 +35,7 @@ ram = system_ram
 gpu = gpu_info.Name
 activity = discord.Game
 status = cycle(['Feito em python com muito stackoverflow', 'Use --help para obter suporte', 'Ha uma diferenca entre conhecer o caminho e percorrer o caminho.', 'Ferroxy#2071 melhor programador do mundo', 'https://github.com/Ferroxyy/fukinari'])
-#token = "NzA5NzkyMDQ4Mjg2NDAwNTEy.XrxR2Q.uLT9JN9RGuoSYmq1BsWkNfQR43E"
+
 
 async def get_prefix(client, message):
 	with open('prefixes.json','r') as file:
@@ -47,7 +44,6 @@ async def get_prefix(client, message):
 
 client = commands.Bot(command_prefix = get_prefix)
 message = discord.Client()
-#client.remove_command('help')
 guild = discord.utils.get(client.guilds)
 
 @tasks.loop(seconds=10)
