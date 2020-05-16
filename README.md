@@ -4,7 +4,7 @@ A Open-Source discord bot written in python
 
 The project have 2 branches, master and gui
 <li>master = CLI version</li>
-<li<gui = GUI version</li>
+<li>gui = GUI version</li>
 
 #
 
