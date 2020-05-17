@@ -36,7 +36,7 @@ The project have 2 branches, master and gui
 >Objectives:
 
 - [ ] Mobile dashboard
-- [ ] Simple portscan
+- [x] Simple portscan
 - [ ] Payload creator
 
 
