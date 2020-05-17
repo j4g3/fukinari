@@ -16,7 +16,7 @@ The project have 2 branches, master and gui
 
 >functionalities:
 
-- [ ] asic bot escope
+- [ x ] asic bot escope
 - [ ] GUI/CLI/WEB dashboard
 - [ ] Pentest module
 - [ ] Machine learning module
